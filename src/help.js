@@ -1,79 +1,74 @@
-const help = (prefix) => {
-	return `> *Sticker Commands* <
-command : *${prefix}sticker* or *${prefix}stiker*
-desc : convert image/gif/video to sticker
-usage : reply image/gif/video, or send image/gif/video with caption\n
-command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
-desc : convert image to sticker while removing the background
-usage : reply image, or send image with caption\n
-command : *${prefix}toimg*
-desc : convert sticker to image
-usage : reply sticker\n
-command : *${prefix}tsticker* or *${prefix}tstiker*
-desc : convert text to sticker
-usage : *${prefix}tsticker text in here*\n
-> *Meme Commands* <
-command : *${prefix}meme*
-desc : random meme images [english]
-usage : just send the command\n
-command : *${prefix}memeindo*
-desc : random meme images [indo]
-usage : just send the command\n
-> *Others Commands* <
-command : *${prefix}gtts*
-desc : convert text to speech/audio
-usage : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts ja On2-chan*\n
-command : *${prefix}loli*
-desc : random loli images
-usage : just send the command\n
-command : *${prefix}nsfwloli*
-desc : random nsfw loli images
-usage : just send the command\n
-command : *${prefix}url2img*
-desc : take web screenshots
-usage : *${prefix}url2img [tipe] [url]*\n
-command : *${prefix}simi*
-desc : your message will be replied to by simi
-usage : *${prefix}simi yourmessage*\n
-command : *${prefix}ocr*
-desc : take the text in the picture
-usage : reply image, or send image with caption\n
-command : *${prefix}wait*
-desc : search anime with image [ What Anime Is This/That ]
-usage : reply image, or send image with caption\n
-command : *${prefix}setprefix*
-desc : replace prefix
-usage : *${prefix}setprefix [text|optional]*\nexample : *${prefix}setprefix ?*
-note : This command can only be used by the bot owner\n
-> *Group Comands* <
-command : *${prefix}add*
-desc : add member into group
-usage : *${prefix}add 62813xxxxx*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}kick*
-desc : kick members from group
-usage : *${prefix}kick @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}promote*
-desc : make the group member as group admin
-usage : *${prefix}promote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}demote*
-desc : make the group admin as group member
-usage : *${prefix}demote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}linkgroup*
-desc : take the group link
-usage : just send the command
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}tagall*
-desc : tags all group members including admins too
-usage : just send the command
-note : This command can be used if you are a group admin\n
-command : *${prefix}simih*
-desc : activate simi mode in the group
-usage : *${prefix}simih 1* to activate simi mode and *${prefix}simih 0* to deactivate simi mode
-note : This command can be used if you are a group admin\n`
-}
 
-exports.help = help
+bantuan  const =  ( awalan )  =>  { 
+	kembali  `* Syahri-BOT * 🖤               
+Hai👋
+ * Selamat datang di Syahri-bot *
+┏━━━ ° ❀ ❬ _ * TENTANG * _ ❭ ❀ ° ━━━┓
+┃║
+┏❉ * $ { prefix } pemilik *
+┣❉ * $ { prefix } info *
+┗❉ * $ { prefix } donasi *
+┃
+┣━━━ ° ❀ ❬ _ * PEMBUAT * _ ❭ ❀ ° ━━━⊱
+┃╠➥ * $ { prefix } stiker *
+┃╠➥ * $ { prefix } stiker *
+┃╠➥ * $ { prefix } sgif *
+┃╠➥ * $ { prefix } tsticker *
+┃╠➥ * $ { prefix } nulis *
+┣━━━━ ° ❀ ❬ _ * MEDIA * _ ❭ ❀ ° ━━⊱
+┃╠➥ * $ { prefix } tts *
+┃╠➥ * $ { prefix } gtts *
+┃╠➥ * $ { awalan } tiktok *
+┃╠➥ * $ { prefix } meme *
+┃╠➥ * $ { prefix } memeindo *
+┃╠➥ * $ { prefix } nsfwloli *
+┃╠➥ * $ { awalan } ocr *
+┃╠➥ * $ { prefix } loli *
+┣━ ° ❀ ❬ _ * UNDUH * _ ❭ ❀ ° ━━⊱
+┃╠➥ * $ { awalan } yt *
+┃╠➥ * $ { prefix } ytmp3 * [kesalahan]
+┣━━ ° ❀ ❬ _ * GROUP * _ ❭ ❀ ° ━━━━⊱
+┃╠➥ * $ { prefix } tagall *
+┃╠➥ * $ { prefix } promosikan * [tag]
+┃╠➥ * $ { prefix } turunkan * [tag]
+┃╠➥ * $ { prefix } tendang * [tag]
+┃╠➥ * $ { prefix } grup * [buka / tutup]
+┃╠➥ * $ { prefix } tambahkan * [62xxx]
+┃╠➥ * $ { prefix } selamat datang * [1/0]
+┃╠➥ * $ { prefix } setpp *
+┃╠➥ * $ { awalan } nsfw * [1/0]
+┃╠➥ * $ { prefix } tagme *
+┃╠➥ * $ { prefix } simih * [1/0]
+┣━━━ ° ❀ ❬ _ * LAINNYA * _ ❭ ❀ ° ━━━⊱
+┃╠➥ * $ { prefix } ytsearch *
+┃╠➥ * $ { prefix } daftar blokir *
+┃╠➥ * $ { prefix } simi *
+┃╠➥ * $ { prefix } tunggu *
+┃╠➥ * $ { prefix } fitnah *
+┃╠➥ * $ { awalan } tiktokstalk *
+┃╠➥ * $ { prefix } url2img *
+┃╠➥ * $ { prefix } kutipan *
+┃╠➥ * $ { prefix } hilih * [teks]
+┃╠➥ * $ { prefix } kebenaran * [kesalahan]
+┃╠➥ * $ { prefix } berani *
+┃╠➥ * $ { prefix } hidetag *
+┃╠➥ * $ { prefix } waifu *
+┣━━ ° ❀ ❬ _ * PEMILIK * _ ❭ ❀ ° ━━━⊱
+┃╠➥ * $ { prefix } bc *
+┃╠➥ * $ { prefix } pergi *
+┃╠➥ * $ { prefix } clearall *
+┃╠➥ * $ { prefix } setprefix *
+┃╠➥ * $ { prefix } klon *
+┃╠➥ * $ { prefix } blok *
+┃╠➥ * $ { prefix } buka blokir *
+┣━━━━━━━━━━━━━━━━━━━⊱
+┃ * Ikuti ke Ig Bot *
+┃ instagram.com/nsrstory
+┃
+┃ * Terima kasih Untuk * 🤝
+┃ _MhankBarBar_
+┣━━━━━━━━━━━━━━━━━━━⊱ 
+┃ _ * Didukung Oleh SYAHRi-BOT * _
+┗━━━━━━━━━━━━━━━━━━━⊱`
+}
+ekspor . bantuan  =  bantuan
